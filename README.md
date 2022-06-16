@@ -8,7 +8,7 @@
  
 1. Clone https://github.com/selimsef/dfdc_deepfake_challenge repo in a local directory.
 2. Build docker image using the DockerFile in that repo.
-***`docker build -t df .`
+**`docker build -t df .`
 4. Run the Docker image by mounting pre-trained weight files and test data.
 5. Run predict_folder.py with correct path to weights.
 6. Transfer submission.csv file out of the container with docker cp command.
