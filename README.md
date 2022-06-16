@@ -1,5 +1,5 @@
 # Assessment-Framework
-Set of scripts written to calculate a few statistics to evaluate the performance of binary classification models.
+Set of scripts written to calculate a few statistics to evaluate the performance of classifiers. 
 
 
 # Re-generating results for DFDC
@@ -35,3 +35,4 @@ Following script generates aligned and cropped faces from the videos in a source
 
 
 # Running the Assessment Framework for DFDC
+
