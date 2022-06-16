@@ -82,4 +82,8 @@ python3 make_dataset.py <source_vids_folder> <output_folder>/
 ```
 
 
+# Preprocessing of Test Videos
+
+Refer to scripts in utils folder to encode videos in h.265 and to apply various filters.
+
 
