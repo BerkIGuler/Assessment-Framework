@@ -62,7 +62,8 @@
 
 1. Clone https://github.com/cuihaoleo/kaggle-dfdc.git repo in a local directory.
 2. load packages given in requirements.txt file
-3. Run submission.py with correct path to weights and path to test data
+3. Edit paths to weights and test videos in submission.py
+4. Run submission.py 
 
 ```
 python3 submission.py
