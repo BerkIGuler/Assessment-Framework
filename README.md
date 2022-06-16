@@ -1,3 +1,9 @@
+# Running the Assessment Framework
+1. Clone https://github.com/BerkIGuler/Assessment-Framework.git
+2. load packages given in requirements.txt file
+3. Refer to run.py for examples of use of statistics class.
+
+
 # Re-generating results for DFDC
 ## Selim Seferbekov
  
@@ -29,13 +35,6 @@ Following script generates aligned and cropped faces from the videos in a source
 2. load packages given in requirements.txt file
 3. Run shell script make_dataset.sh by modifying source and target folders as you need.
 
-
-
-
-# Running the Assessment Framework
-1. Clone xxxxxx
-2. load packages given in requirements.txt file
-3. Refer to run.py for examples of use of statistics class.
 
 
 
