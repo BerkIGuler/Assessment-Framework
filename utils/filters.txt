@@ -1,0 +1,44 @@
+#vintage effect
+ffmpeg -i test.mp4 -vf curves=vintage new.mp4
+
+
+# darken the vid
+ffmpeg -i test.mp4 -vf curves=darker new.mp4
+
+# increse_contrast
+ffmpeg -i test.mp4 -vf curves=increase_contrast new.mp4
+
+#lighten video
+ffmpeg -i test.mp4 -vf curves=lighter new.mp4
+
+# gaussian blur
+ffmpeg -i test.mp4 -vf gblur new.mp4
+
+# change hue vals every 2 sec
+ffmpeg -i test.mp4 -vf hue="H=2*PI*t: s=sin(2*PI*t)+1" new.mp4
+
+# add uniform and temporal noise
+ffmpeg -i test.mp4 -vf noise=alls=20:allf=t+u new_3.mp4 
+
+# sepia filter
+ffmpeg -i test.mp4 -vf colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131 new.mp4
+
+# rotate by x
+ffmpeg -i test.mp4 -vf rotate=PI/36 new_2.mp4
+
+
+# convert to greyscale
+ffmpeg -i test.mp4 -vf colorchannelmixer=.3:.4:.3:0:.3:.4:.3:0:.3:.4:.3 new.mp4
+
+# convolve with high pass ---> sharpener
+ffmpeg -i test.mp4 -vf convolution="0 -1 0 -1 5 -1 0 -1 0:0 -1 0 -1 5 -1 0 -1 0:0 -1 0 -1 5 -1 0 -1 0:0 -1 0 -1 5 -1 0 -1 0" new.mp4
+
+
+
+
+
+
+
+
+	
+
