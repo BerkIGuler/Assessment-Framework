@@ -1,7 +1,3 @@
-# Assessment-Framework
-Set of scripts written to calculate a few statistics to evaluate the performance of classifiers. 
-
-
 # Re-generating results for DFDC
 ## Selim Seferbekov
  
@@ -32,4 +28,15 @@ Following script generates aligned and cropped faces from the videos in a source
 1. Clone https://github.com/cuihaoleo/kaggle-dfdc.git repo in a local directory.
 2. load packages given in requirements.txt file
 3. Run shell script make_dataset.sh by modifying source and target folders as you need.
+
+
+
+
+# Running the Assessment Framework
+1. Clone xxxxxx
+2. load packages given in requirements.txt file
+3. Refer to run.py for examples of use of statistics class.
+
+
+
 
