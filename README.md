@@ -73,7 +73,7 @@ Following script generates aligned and cropped faces from the videos in a source
 3. Run below command
 
 ```
-python3 /home/bgueler/kaggle-dfdc-TeamVM/make_dataset.py source_vids output_frames/
+python3 make_dataset.py <source_vids_folder> <output_folder>/
 ```
 
 
