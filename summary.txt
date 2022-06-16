@@ -1,0 +1,85 @@
+LOGLOSS
+
+Seferbekov Original Dataset:	0.213
+Ntech Original Dataset			0.187
+TeamVM Original Dataset:		0.210
+
+Seferbekov Processed Dataset:	0.353
+Ntech Processed Dataset:		0.347
+TeamVM Processed Dataset:		0.392
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+
+MEAN SCORES
+
+Seferbekov Original Dataset:	0.613
+Ntech Original Dataset			0.573
+TeamVM Original Dataset:		0.620
+
+Seferbekov Processed Dataset:	0.561
+Ntech Processed Dataset:		0.516
+TeamVM Processed Dataset:		0.522
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+VARIANCE
+
+Seferbekov Original Dataset:	0.168
+Ntech Original Dataset			0.178
+TeamVM Original Dataset:		0.152
+
+Seferbekov Processed Dataset:	0.151
+Ntech Processed Dataset:		0.154
+TeamVM Processed Dataset:		0.127
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+BEST POSSIBLE ACCURACY
+
+Seferbekov Original Dataset:	0.910
+Ntech Original Dataset			0.948
+TeamVM Original Dataset:		0.911
+
+Seferbekov Processed Dataset:	0.855
+Ntech Processed Dataset:		0.898
+TeamVM Processed Dataset:		0.858
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+ACCURACY WITH THRESHOLD = 0.5
+
+Seferbekov Original Dataset:	0.893
+Ntech Original Dataset			0.930
+TeamVM Original Dataset:		0.908
+
+Seferbekov Processed Dataset:	0.827
+Ntech Processed Dataset:		0.852
+TeamVM Processed Dataset:		0.822
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+Confusion Matrix
+								False Positive Rate		True Positive Rate		False Negative Rate		True Negative Rate				
+Seferbekov Original Dataset:	0.072					0.874					0.126					0.928
+Ntech Original Dataset			0.014					0.900					0.100					0.986
+TeamVM Original Dataset:		0.127					0.928					0.072					0.873
+
+Seferbekov Processed Dataset:	0.101					0.788					0.212					0.899
+Ntech Processed Dataset:		0.036					0.790					0.210					0.964
+TeamVM Processed Dataset:		0.098					0.778					0.222					0.902
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+Confusion Matrix
+				F1 Score			F2 Score			F0.2 Score		Weighted Precision (alpha=250)		Recall		
+Seferbekov Original Dataset:	0.913			0.889			0.953			0.080					0.874
+Ntech Original Dataset		0.943			0.917			0.987			0.310					0.900
+TeamVM Original Dataset:		0.929			0.928			0.930			0.050					0.928
+
+Seferbekov Processed Dataset:	0.854			0.813			0.927			0.053					0.788
+Ntech Processed Dataset:		0.873			0.821			0.967			0.136					0.790
+TeamVM Processed Dataset:		0.849			0.805			0.928			0.054					0.778
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
