@@ -1,5 +1,5 @@
 # Running the Assessment Framework
-1. Clone https://github.com/BerkIGuler/Assessment-Framework.git
+1. Clone this repo first
 2. load packages given in requirements.txt file
 3. Refer to run.py for examples of use of statistics class.
 
