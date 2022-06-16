@@ -29,7 +29,7 @@
 
 5. Transfer submission.csv file out of the container with docker cp command.
 
-`   docker cp <container_name>:/code/submission.csv submission_sef.csv
+`   docker cp <container_name>:/code/submission.csv submission_sef.csv   `
 
 ## NtechLab
 
