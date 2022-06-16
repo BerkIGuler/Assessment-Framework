@@ -62,7 +62,7 @@
 
 1. Clone https://github.com/cuihaoleo/kaggle-dfdc.git repo in a local directory.
 2. load packages given in requirements.txt file
-4. Run submission.py with correct path to weights and path to test data
+3. Run submission.py with correct path to weights and path to test data
 
 
 # Generating a Dataset to train DeepFake Detectors
@@ -70,9 +70,11 @@ Following script generates aligned and cropped faces from the videos in a source
 
 1. Clone https://github.com/cuihaoleo/kaggle-dfdc.git repo in a local directory.
 2. load packages given in requirements.txt file
-3. Run shell script make_dataset.sh by modifying source and target folders as you need.
+3. Run below command
 
-
+```
+python3 /home/bgueler/kaggle-dfdc-TeamVM/make_dataset.py source_vids output_frames/
+```
 
 
 
