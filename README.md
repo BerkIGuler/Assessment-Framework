@@ -64,6 +64,10 @@
 2. load packages given in requirements.txt file
 3. Run submission.py with correct path to weights and path to test data
 
+```
+python3 submission.py
+```
+
 
 # Generating a Dataset to train DeepFake Detectors
 Following script generates aligned and cropped faces from the videos in a source folder and saves these images in the target folder.
