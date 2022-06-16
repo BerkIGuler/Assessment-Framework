@@ -3,7 +3,7 @@
 2. Refer to run.py for examples of use of statistics class.
 
 
-# Re-generating results for DFDC
+# Re-generating results of DFDC
 ## Selim Seferbekov
  
 1. Clone https://github.com/selimsef/dfdc_deepfake_challenge repo in a local directory.
