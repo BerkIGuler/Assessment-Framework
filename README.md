@@ -9,11 +9,11 @@
 1. Clone https://github.com/selimsef/dfdc_deepfake_challenge repo in a local directory.
 2. Build docker image using the DockerFile in that repo.
 
-`docker build -t df .`
+`   docker build -t df .   `
 
 3. Run the Docker image by mounting pre-trained weight files and test data.
 
-`docker run --runtime=nvidia --ipc=host --rm --volume <current_directory>:/code --volume <test_videos_directory>:/test -it <docker_image> /bin/bash`
+`   docker run --runtime=nvidia --ipc=host --rm --volume <current_directory>:/code --volume <test_videos_directory>:/test -it <docker_image> /bin/bash   `
 
 4. Run predict_folder.py with correct path to weights.
 
@@ -25,9 +25,11 @@
   final_777_DeepFakeClassifier_tf_efficientnet_b7_ns_0_31 \
   final_888_DeepFakeClassifier_tf_efficientnet_b7_ns_0_37 \
   final_888_DeepFakeClassifier_tf_efficientnet_b7_ns_0_40 \
-  final_999_DeepFakeClassifier_tf_efficientnet_b7_ns_0_23`
+  final_999_DeepFakeClassifier_tf_efficientnet_b7_ns_0_23   `
 
 5. Transfer submission.csv file out of the container with docker cp command.
+
+`   docker cp <container_name>:/code/submission.csv submission_sef.csv
 
 ## NtechLab
 
