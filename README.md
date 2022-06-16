@@ -1,7 +1,6 @@
 # Running the Assessment Framework
 1. Clone this repo first
-2. load packages given in requirements.txt file
-3. Refer to run.py for examples of use of statistics class.
+2. Refer to run.py for examples of use of statistics class.
 
 
 # Re-generating results for DFDC
