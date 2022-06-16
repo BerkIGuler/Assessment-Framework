@@ -16,8 +16,8 @@
 `   docker run --runtime=nvidia --ipc=host --rm --volume <current_directory>:/code --volume <test_videos_directory>:/test -it <docker_image> /bin/bash   `
 
 4. Run predict_folder.py with correct path to weights.
-
-`  python predict_folder.py \
+```
+   python predict_folder.py \
  --test-dir "/test" \
  --models final_111_DeepFakeClassifier_tf_efficientnet_b7_ns_0_36 \
   final_555_DeepFakeClassifier_tf_efficientnet_b7_ns_0_19 \
@@ -25,7 +25,8 @@
   final_777_DeepFakeClassifier_tf_efficientnet_b7_ns_0_31 \
   final_888_DeepFakeClassifier_tf_efficientnet_b7_ns_0_37 \
   final_888_DeepFakeClassifier_tf_efficientnet_b7_ns_0_40 \
-  final_999_DeepFakeClassifier_tf_efficientnet_b7_ns_0_23   `
+  final_999_DeepFakeClassifier_tf_efficientnet_b7_ns_0_23   
+```
 
 5. Transfer submission.csv file out of the container with docker cp command.
 
@@ -44,12 +45,12 @@
 `   docker run -d --runtime=nvidia --ipc=host --rm -d --volume <current_directory>:/code --volume <test_videos_directory>:/test -it <img_name> /bin/bash
 
 4. Edit config.yaml file as below.
-`   
+```
     DFDC_DATA_PATH: "test"
     ARTIFACTS_PATH: "/code/artifacts"
     MODELS_PATH: "/code/models"
     SUBMISSION_PATH: "/code/submission/submission.csv"
-`
+```
 5. Run predict.py 
 
 
