@@ -33,6 +33,3 @@ Following script generates aligned and cropped faces from the videos in a source
 2. load packages given in requirements.txt file
 3. Run shell script make_dataset.sh by modifying source and target folders as you need.
 
-
-# Running the Assessment Framework for DFDC
-
